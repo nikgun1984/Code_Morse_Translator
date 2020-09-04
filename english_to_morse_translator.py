@@ -26,8 +26,8 @@ def encrypt_message(message):
 
 
 # def decrypt_message(message):
-message = encrypt_message('My name is Nikolay Gundobin.')
-print(message)
+message = encrypt_message('Hello there. My name is Nick Gundobin. I am a software engineer.')
+# print(message)
 file = open('code.txt','w')
 file.write(message)
 file.close()
